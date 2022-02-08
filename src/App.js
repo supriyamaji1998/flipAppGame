@@ -2,7 +2,6 @@ import "./App.css";
 import CardBox from "./components/CardBox";
 import Homepage from "./components/Homepage";
 import {
-  //Please Use BrowserRouter  instead of HashRouter to run in local
   BrowserRouter as Router,
   Routes,
   Route,
