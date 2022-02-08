@@ -96,7 +96,7 @@ export default function CardBox({
       calculateScore();
       setTimeout(() => {
         level === "Easy"
-          ? (window.location.href = "/flipAppGame/medium")
+          ? (window.location.href = "/medium")
           : (window.location.href = "/hard");
       }, 3000);
       clearwintintervalfunc();
