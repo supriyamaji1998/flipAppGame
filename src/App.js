@@ -3,7 +3,7 @@ import CardBox from "./components/CardBox";
 import Homepage from "./components/Homepage";
 import {
   //Please Use BrowserRouter  instead of HashRouter to run in local
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -46,7 +46,7 @@ const cardsHardType = [
 function App() {
   return (
     <div>
-      <Router basename="/">
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route exact path="/" element={<Homepage />} />
         </Routes>
