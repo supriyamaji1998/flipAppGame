@@ -1,0 +1,40 @@
+.levelList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  font-size: 23px;
+
+  /* background-color: rgb(108, 117, 117); */
+}
+.levelKey p {
+  color: aliceblue;
+  width: 25vw;
+  text-align: center;
+  height: 7vh;
+  margin: 2px;
+  background-color: #16a085;
+  text-decoration: none;
+}
+.levelKey :hover {
+  background-color: #c0392b;
+}
+.scoreBox {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  /* justify-content: space-between; */
+  width: 25vw;
+  height: 23vh;
+  background-color: #c0392b;
+  /* justify-content: center; */
+  align-items: center;
+}
+th {
+  padding: 15px;
+}
+td {
+  padding-left: 25px;
+}

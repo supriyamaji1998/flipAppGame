@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+.card-grid-Hard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 4px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-grid-Easy {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 4px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-grid-Medium {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 4px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.front-Hard {
+  font-size: 70px;
+  background-color: #c0392b;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12vw;
+  height: 19vh;
+}
+.front-Easy {
+  font-size: 70px;
+  background-color: #c0392b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24vw;
+  height: 40vh;
+}
+.front-Medium {
+  font-size: 70px;
+  background-color: #c0392b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24vw;
+  height: 20vh;
+}
+.back-Medium {
+  background: #16a085;
+  width: 24vw;
+  height: 20vh;
+}
+.back-Hard {
+  background: #16a085;
+  width: 12vw;
+  height: 19vh;
+}
+.back-Easy {
+  background: #16a085;
+  width: 24vw;
+  height: 40vh;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  margin: 10px;
 }

@@ -1,0 +1,56 @@
+.card {
+  position: relative;
+}
+.card .front-Easy {
+  transform: rotateY(90deg);
+  transition: all ease-in 0.3s;
+  position: absolute;
+}
+.card .front-Hard {
+  transform: rotateY(90deg);
+  transition: all ease-in 0.3s;
+  position: absolute;
+}
+.card .front-Medium {
+  transform: rotateY(90deg);
+  transition: all ease-in 0.3s;
+  position: absolute;
+}
+
+.flipped .front-Hard {
+  transform: rotateY(0deg);
+  transition-delay: 00.3s;
+}
+.flipped .front-Easy {
+  transform: rotateY(0deg);
+  transition-delay: 00.3s;
+}
+.flipped .front-Medium {
+  transform: rotateY(0deg);
+  transition-delay: 00.3s;
+}
+
+.card .back-Easy {
+  transition: all ease-in 0.3s;
+  transition-delay: 00.3s;
+}
+.card .back-Medium {
+  transition: all ease-in 0.3s;
+  transition-delay: 00.3s;
+}
+.card .back-Hard {
+  transition: all ease-in 0.3s;
+  transition-delay: 00.3s;
+}
+.flipped .back-Easy {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
+.flipped .back-Medium {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
+.flipped .back-Hard {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
