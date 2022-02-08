@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/flipAppGame/static/css/main.f23d8c27.css",
-    "main.js": "/flipAppGame/static/js/main.11de9317.js",
+    "main.js": "/flipAppGame/static/js/main.4049a08f.js",
     "index.html": "/flipAppGame/index.html",
     "main.f23d8c27.css.map": "/flipAppGame/static/css/main.f23d8c27.css.map",
-    "main.11de9317.js.map": "/flipAppGame/static/js/main.11de9317.js.map"
+    "main.4049a08f.js.map": "/flipAppGame/static/js/main.4049a08f.js.map"
   },
   "entrypoints": [
     "static/css/main.f23d8c27.css",
-    "static/js/main.11de9317.js"
+    "static/js/main.4049a08f.js"
   ]
 }
